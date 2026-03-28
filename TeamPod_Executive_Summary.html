@@ -1,0 +1,460 @@
+<!DOCTYPE html>
+<html xmlns:o="urn:schemas-microsoft-com:office:office"
+      xmlns:w="urn:schemas-microsoft-com:office:word"
+      xmlns="http://www.w3.org/TR/REC-html40">
+<head>
+  <meta charset="UTF-8">
+  <meta name="ProgId" content="Word.Document">
+  <meta name="Generator" content="Microsoft Word 15">
+  <title>TeamPod Website — Executive Summary of Changes</title>
+  <style>
+    @page {
+      size: A4;
+      margin: 2.5cm 2.8cm 2.5cm 2.8cm;
+    }
+    body {
+      font-family: Calibri, 'Segoe UI', Arial, sans-serif;
+      font-size: 11pt;
+      color: #1e293b;
+      line-height: 1.6;
+      max-width: 900px;
+      margin: 0 auto;
+      padding: 40px;
+    }
+
+    /* ── Cover block ─────────────────────────── */
+    .cover {
+      border-left: 5px solid #1d4ed8;
+      padding: 24px 28px;
+      background: #f0f6ff;
+      margin-bottom: 36px;
+    }
+    .cover h1 {
+      font-size: 22pt;
+      font-weight: 700;
+      color: #0f172a;
+      margin: 0 0 6px 0;
+    }
+    .cover .sub {
+      font-size: 10pt;
+      color: #475569;
+      margin: 0;
+    }
+    .cover .meta {
+      margin-top: 16px;
+      font-size: 10pt;
+      color: #334155;
+      line-height: 1.9;
+    }
+    .cover .meta strong { color: #0f172a; }
+
+    /* ── Section headings ────────────────────── */
+    h2 {
+      font-size: 14pt;
+      font-weight: 700;
+      color: #1d4ed8;
+      margin: 32px 0 6px 0;
+      padding-bottom: 4px;
+      border-bottom: 1.5px solid #dbeafe;
+    }
+    h3 {
+      font-size: 11pt;
+      font-weight: 700;
+      color: #0f172a;
+      margin: 20px 0 4px 0;
+    }
+
+    p {
+      margin: 6px 0 12px 0;
+      font-size: 11pt;
+      color: #334155;
+    }
+
+    /* ── Tables ──────────────────────────────── */
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      font-size: 10pt;
+      margin: 14px 0 20px 0;
+    }
+    th {
+      background: #1d4ed8;
+      color: #ffffff;
+      font-weight: 600;
+      text-align: left;
+      padding: 8px 10px;
+    }
+    td {
+      padding: 7px 10px;
+      border-bottom: 1px solid #e2e8f0;
+      color: #334155;
+      vertical-align: top;
+    }
+    tr:nth-child(even) td { background: #f8fafc; }
+    tr:last-child td { border-bottom: none; }
+
+    /* ── Status badges ───────────────────────── */
+    .badge {
+      display: inline-block;
+      font-size: 8.5pt;
+      font-weight: 700;
+      padding: 2px 8px;
+      border-radius: 4px;
+      text-transform: uppercase;
+      letter-spacing: 0.04em;
+    }
+    .badge-done    { background: #dcfce7; color: #166534; }
+    .badge-pending { background: #fef9c3; color: #854d0e; }
+    .badge-dev     { background: #ede9fe; color: #5b21b6; }
+
+    /* ── Callout boxes ───────────────────────── */
+    .callout {
+      border-left: 4px solid #f59e0b;
+      background: #fffbeb;
+      padding: 12px 16px;
+      margin: 16px 0;
+      border-radius: 0 6px 6px 0;
+    }
+    .callout p { margin: 0; color: #78350f; font-size: 10.5pt; }
+    .callout strong { color: #451a03; }
+
+    .callout-info {
+      border-left-color: #3b82f6;
+      background: #eff6ff;
+    }
+    .callout-info p { color: #1e40af; }
+
+    /* ── Divider ─────────────────────────────── */
+    hr {
+      border: none;
+      border-top: 1px solid #e2e8f0;
+      margin: 32px 0;
+    }
+
+    /* ── Footer ──────────────────────────────── */
+    .doc-footer {
+      margin-top: 48px;
+      padding-top: 14px;
+      border-top: 1px solid #e2e8f0;
+      font-size: 9pt;
+      color: #94a3b8;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- ── COVER ─────────────────────────────────────────── -->
+  <div class="cover">
+    <h1>TeamPod Website — Executive Summary of Changes</h1>
+    <p class="sub">Pre-launch landing page review &amp; implementation record</p>
+    <div class="meta">
+      <strong>File:</strong> index.html (teampod.co.uk)<br>
+      <strong>Date:</strong> March 2026<br>
+      <strong>Prepared for:</strong> Executive Team &amp; Dev Team<br>
+      <strong>Status:</strong> Pre-launch — pending approvals noted below
+    </div>
+  </div>
+
+  <p>This document summarises every change made to the TeamPod landing page from the original file to its current state. It is intended to give the executive team full visibility of what was changed and why, and to flag the items that still require a decision or asset before the page can go live.</p>
+
+
+  <!-- ── 1. SECTION ORDER ───────────────────────────────── -->
+  <h2>1. Page Structure — Section Reorder</h2>
+
+  <p>The page section order was restructured to follow a SAR copywriting framework (Situation → Agitate → Resolve). High-impact content now appears earlier, while the page holds trust and pricing until after the visitor understands the value.</p>
+
+  <table>
+    <tr>
+      <th>#</th>
+      <th>Original Section</th>
+      <th>New Section</th>
+      <th>Change</th>
+    </tr>
+    <tr><td>1</td><td>Hero</td><td>Hero</td><td>Unchanged</td></tr>
+    <tr><td>2</td><td>Who It's For</td><td>The Real Cost</td><td>Moved up from position 5 — agitation while attention is highest</td></tr>
+    <tr><td>3</td><td>Features</td><td>How It Works</td><td>Moved up from position 4</td></tr>
+    <tr><td>4</td><td>How It Works</td><td>Features</td><td>Moved down from position 3</td></tr>
+    <tr><td>5</td><td>The Real Cost</td><td>Security</td><td>Moved up from position 10 — answers trust objection before social proof</td></tr>
+    <tr><td>6</td><td>Customer Stories</td><td>Who It's For</td><td>Moved down from position 2</td></tr>
+    <tr><td>7</td><td>Pricing</td><td>Customer Stories</td><td>Unchanged relative position</td></tr>
+    <tr><td>8</td><td>Integrations</td><td>Integrations</td><td>Unchanged</td></tr>
+    <tr><td>9</td><td>Comparison</td><td>Comparison</td><td>Unchanged</td></tr>
+    <tr><td>10</td><td>Security</td><td>Pricing</td><td>Moved down from position 7 — trust established first</td></tr>
+    <tr><td>11</td><td>FAQ</td><td>FAQ</td><td>Unchanged</td></tr>
+    <tr><td>12</td><td>CTA</td><td>CTA</td><td>Unchanged</td></tr>
+  </table>
+
+
+  <!-- ── 2. NAVIGATION ─────────────────────────────────── -->
+  <h2>2. Navigation</h2>
+
+  <table>
+    <tr><th>Item</th><th>Change</th><th>Status</th></tr>
+    <tr><td>Sign Up button</td><td>Added between Login and the CTA button</td><td><span class="badge badge-done">Done</span></td></tr>
+    <tr><td>Nav link order</td><td>Updated to match new section sequence: How It Works → Features → Security → Pricing → Integrations → FAQ</td><td><span class="badge badge-done">Done</span></td></tr>
+    <tr><td>CTA button label</td><td>"Get £100 Free Credit" → "£100 Free" (fixes overflow at zoomed sizes on mobile)</td><td><span class="badge badge-done">Done</span></td></tr>
+    <tr><td>Hide on scroll</td><td>Nav hides when scrolling down, reappears on scroll up — reduces screen usage on mobile</td><td><span class="badge badge-done">Done</span></td></tr>
+  </table>
+
+
+  <!-- ── 3. HERO ───────────────────────────────────────── -->
+  <h2>3. Hero Section</h2>
+
+  <table>
+    <tr><th>Element</th><th>Before</th><th>After</th></tr>
+    <tr><td>Page &lt;title&gt;</td><td>Team Pod | Invoice Processing Automation for UK Businesses</td><td>Team Pod | AI-Powered Invoice Automation</td></tr>
+    <tr><td>Eyebrow</td><td>AI-Powered Invoice Automation for UK Businesses</td><td>Invoice Automation for Finance Teams</td></tr>
+    <tr><td>H1 Headline</td><td>Invoice Processing on Autopilot</td><td>You're paying 100x more per invoice than you should. We change that.</td></tr>
+    <tr><td>Subheading</td><td>Your finance team spends up to 15 hours a week manually keying invoices…</td><td>Team Pod automates the full invoice lifecycle — from receipt to posted — for finance teams on QuickBooks, SAGE, or Xero.</td></tr>
+    <tr><td>Stats bar</td><td>99% OCR Accuracy / 10–15 hrs Saved / 19p Per Page</td><td>99% OCR Accuracy / 10–15 hrs Saved / Same day Go live</td></tr>
+  </table>
+
+  <div class="callout">
+    <p><strong>Note for dev team:</strong> The hero image is still a generic Unsplash stock photo. Replace with a real Team Pod product screenshot before launch.</p>
+  </div>
+
+
+  <!-- ── 4. HOW IT WORKS ───────────────────────────────── -->
+  <h2>4. How It Works Section</h2>
+
+  <table>
+    <tr><th>Item</th><th>Change</th></tr>
+    <tr><td>Step count</td><td>Reduced from 4 steps to 3. Steps 1 (Invoice Arrives) and 2 (AI Reads &amp; Validates) merged into "Upload &amp; Read in Seconds"</td></tr>
+    <tr><td>Arrow connector</td><td>Removed — was rendering as a visual artefact across the section on some screen sizes</td></tr>
+    <tr><td>Step colours</td><td>Step 2 now uses cyan/teal (previously orange). Step 3 uses indigo-violet. Orange removed from the palette entirely.</td></tr>
+    <tr><td>Step 3 content</td><td>Expanded to include audit trail detail: who approved, any comments left, full history visible and traceable</td></tr>
+    <tr><td>Column layout</td><td>Updated from col-lg-3 (4 columns) to col-lg-4 (3 columns) — better balance and readability</td></tr>
+  </table>
+
+
+  <!-- ── 5. THE REAL COST ──────────────────────────────── -->
+  <h2>5. The Real Cost Section</h2>
+
+  <table>
+    <tr><th>Item</th><th>Change</th></tr>
+    <tr><td>Headline</td><td>"Your Finance Team's Time Is Too Valuable for Data Entry" → "Stop Paying £10–£15 Per Invoice When You Could Pay 19p"</td></tr>
+    <tr><td>Stats bar</td><td>Horizontal single-row bar replaced with responsive 2×2 grid of individual cards — the original broke on mobile and at zoom levels</td></tr>
+    <tr><td>Card labels</td><td>List items simplified to plain language — shorter, more relatable, less corporate</td></tr>
+  </table>
+
+
+  <!-- ── 6. FEATURES ──────────────────────────────────── -->
+  <h2>6. Features Section</h2>
+
+  <p>The original 6 feature cards were retained but rewritten. "Replaces:" tags removed — copy now leads with the benefit, not the feature being replaced.</p>
+
+  <table>
+    <tr><th>Card</th><th>Title</th><th>Approach</th></tr>
+    <tr><td>1</td><td>Invoices In, Any Way You Like</td><td>Benefit-led, 2 sentences</td></tr>
+    <tr><td>2</td><td>AI That Reads &amp; Checks</td><td>Outcome first, stats included</td></tr>
+    <tr><td>3</td><td>Approvals Without the Chasing</td><td>Pain-point headline</td></tr>
+    <tr><td>4</td><td>Posted to Your Accounts, Automatically</td><td>Outcome-led</td></tr>
+    <tr><td>5</td><td>Find Any Invoice in Seconds</td><td>Benefit-led, restored from deleted version</td></tr>
+    <tr><td>6</td><td>Always Audit-Ready</td><td>Benefit-led, restored from deleted version</td></tr>
+  </table>
+
+
+  <!-- ── 7. SECURITY ──────────────────────────────────── -->
+  <h2>7. Security Section</h2>
+
+  <table>
+    <tr><th>Item</th><th>Change</th></tr>
+    <tr><td>Title</td><td>"Your Data Is Safe With Us" → "Bank-Level Encryption"</td></tr>
+    <tr><td>Subtitle</td><td>Updated to: "We safeguard your data with the highest level of security, UK data residency, and full EU and GDPR compliance."</td></tr>
+    <tr><td>Card count</td><td>Reduced from 6 cards to 3. Each has exactly 3 checks — tighter and more scannable</td></tr>
+    <tr><td>Card titles</td><td>Rewritten as benefits: "Your Data Is Encrypted" / "Fully Compliant" / "You Stay in Control"</td></tr>
+  </table>
+
+
+  <!-- ── 8. WHO IT'S FOR ───────────────────────────────── -->
+  <h2>8. Who It's For Section</h2>
+
+  <table>
+    <tr><th>Item</th><th>Change</th></tr>
+    <tr><td>Headline</td><td>"Built for Teams That Handle High Invoice Volumes" → "Built for Your Team"</td></tr>
+    <tr><td>Card count</td><td>Reduced from 4 to 3: SMBs / Accounting Practices / High-Volume Teams</td></tr>
+    <tr><td>Card design</td><td>Redesigned with large bold stat number as visual anchor (12h / 38+ / 200+), coloured top accent bar on hover. Minimal, outcome-led — inspired by QuickBooks/Dext layout patterns</td></tr>
+  </table>
+
+
+  <!-- ── 9. CUSTOMER STORIES ───────────────────────────── -->
+  <h2>9. Customer Stories Section</h2>
+
+  <table>
+    <tr><th>Item</th><th>Change</th></tr>
+    <tr><td>Photos</td><td>All 3 Unsplash stock headshots removed. Replaced with initials avatars (gradient-coloured circles — JW / SC / MO)</td></tr>
+    <tr><td>Quote length</td><td>Shortened from 3–5 sentences to 1–2 punchy sentences each</td></tr>
+    <tr><td>Headline</td><td>"Trusted by UK Finance Teams" → "What Finance Teams Say"</td></tr>
+  </table>
+
+  <div class="callout">
+    <p><strong>Pending:</strong> Replace initials avatars with real customer photos and obtain written consent for use of names and quotes before publishing.</p>
+  </div>
+
+
+  <!-- ── 10. INTEGRATIONS ──────────────────────────────── -->
+  <h2>10. Integrations Section</h2>
+  <p>Section subtext shortened from 2 sentences to 1. Content unchanged. Integration logos (QuickBooks, SAGE, Xero SVGs) retained as-is.</p>
+
+
+  <!-- ── 11. FOOTER ───────────────────────────────────── -->
+  <h2>11. Footer</h2>
+
+  <table>
+    <tr><th>Item</th><th>Change</th><th>Reason</th></tr>
+    <tr><td>Resources column</td><td>Removed entirely</td><td>Help Centre, User Guide, API Docs, Case Studies, and Video Tutorials do not exist. Dead links damage trust and SEO.</td></tr>
+    <tr><td>Social media icons</td><td>LinkedIn and Twitter removed</td><td>No active accounts to link to. Only the email icon remains.</td></tr>
+    <tr><td>Email links</td><td>All email addresses converted to mailto: links with pre-filled subject ("Webpage Questions") and opening body</td><td>Reduces friction for inbound enquiries</td></tr>
+    <tr><td>Product links</td><td>All now anchor correctly to page sections (#features, #pricing, #integrations, #security, #faq)</td><td>Previously all linked to #</td></tr>
+  </table>
+
+  <div class="callout callout-info">
+    <p><strong>Note on mailto: links:</strong> These open the user's default mail app (Outlook, Apple Mail). This is correct behaviour for a B2B audience who typically have Outlook configured. If a web-based contact form is preferred, this should be added post-launch — no action needed before go-live.</p>
+  </div>
+
+
+  <!-- ── 12. DESIGN & VISUAL ──────────────────────────── -->
+  <h2>12. Design &amp; Visual</h2>
+
+  <table>
+    <tr><th>Item</th><th>Change</th></tr>
+    <tr><td>Alternating backgrounds</td><td>Attempted full light/dark alternation — reverted at client request due to contrast issues on light sections. Original section colours fully restored.</td></tr>
+    <tr><td>Accent lines</td><td>Subtle 3px gradient line added at the top of light sections for visual separation without colour contrast problems</td></tr>
+    <tr><td>Section header glow</td><td>Faint radial glow added behind section header labels — adds depth without altering the colour scheme</td></tr>
+    <tr><td>Paragraph text colour</td><td>Darkened globally (CSS var --gray-600 → --gray-700) for better readability on white and light backgrounds</td></tr>
+  </table>
+
+
+  <!-- ── 13. MOBILE ───────────────────────────────────── -->
+  <h2>13. Mobile Responsiveness</h2>
+
+  <table>
+    <tr><th>Element</th><th>Change</th></tr>
+    <tr><td>Hero</td><td>Stacks and centres on mobile. Headline font reduced for small screens.</td></tr>
+    <tr><td>Nav buttons</td><td>Wrap cleanly. Font size reduced. CTA label shortened to fit.</td></tr>
+    <tr><td>Stats grid</td><td>Goes to 2-column on small screens</td></tr>
+    <tr><td>Section padding</td><td>Reduced from 100px to 70px on mobile</td></tr>
+    <tr><td>Breakpoints added</td><td>767px (mobile) and 991px (tablet)</td></tr>
+  </table>
+
+
+  <!-- ── 14. ACCESSIBILITY ─────────────────────────────── -->
+  <h2>14. Accessibility (WCAG / a11y)</h2>
+
+  <table>
+    <tr><th>Item</th><th>Change</th></tr>
+    <tr><td>Skip-to-content link</td><td>Added for keyboard and screen reader navigation</td></tr>
+    <tr><td>Main content landmark</td><td>id="main-content" added to hero section</td></tr>
+    <tr><td>Decorative icons</td><td>All Bootstrap icons marked aria-hidden="true" throughout</td></tr>
+    <tr><td>Nav toggle button</td><td>aria-controls, aria-expanded, aria-label added</td></tr>
+    <tr><td>Back-to-top button</td><td>aria-label="Back to top" added</td></tr>
+    <tr><td>Footer social link</td><td>Descriptive aria-label added</td></tr>
+    <tr><td>Hero image</td><td>Generic alt text replaced with descriptive alt text</td></tr>
+    <tr><td>Star ratings</td><td>aria-label="5 out of 5 stars" added to each testimonial</td></tr>
+    <tr><td>Heading hierarchy</td><td>Checked throughout — h1 (hero) → h2 (section) → h3/h4/h5 (cards) maintained correctly</td></tr>
+  </table>
+
+
+  <hr>
+
+  <!-- ── PENDING DECISIONS ─────────────────────────────── -->
+  <h2>Pending Decisions — Executive Team</h2>
+
+  <div class="callout">
+    <p><strong>These items must be resolved before the page goes live.</strong></p>
+  </div>
+
+  <table>
+    <tr><th>Item</th><th>Decision Required</th><th>Impact</th></tr>
+    <tr>
+      <td><strong>Favicon</strong></td>
+      <td>Asset does not exist. Needs to be created and supplied.</td>
+      <td>Missing favicon looks unprofessional in browser tabs and bookmarks</td>
+    </tr>
+    <tr>
+      <td><strong>Logo</strong></td>
+      <td>Final approved version needs sign-off before go-live.</td>
+      <td>Cannot publish without confirmed brand asset</td>
+    </tr>
+    <tr>
+      <td><strong>£100 Credit vs Free Trial</strong></td>
+      <td>Page consistently references £100 Free Credit. Confirm this is the live offer. Hero CTA, pricing section, and FAQ all reference it.</td>
+      <td>Inconsistency between offer types at launch damages trust</td>
+    </tr>
+    <tr>
+      <td><strong>Pricing model</strong></td>
+      <td>Current per-page volume band model requires visitors to calculate their own monthly cost — adds friction. Consider a 3-tier flat monthly structure (Starter / Growth / Scale) as used by Dext and Hubdoc.</td>
+      <td>Conversion rate risk. Recommend resolving before launch if possible.</td>
+    </tr>
+    <tr>
+      <td><strong>Demo booking</strong></td>
+      <td>"Book a 15-Min Demo" CTA button currently links to #. Needs a Calendly or Microsoft Bookings URL. Recommend Calendly (free tier available, Google &amp; Outlook compatible).</td>
+      <td>CTA button non-functional at launch</td>
+    </tr>
+    <tr>
+      <td><strong>Social media</strong></td>
+      <td>LinkedIn and Twitter removed from footer — no active accounts. Confirm whether accounts will be created for launch.</td>
+      <td>Absence of social presence may affect trust signals</td>
+    </tr>
+    <tr>
+      <td><strong>Customer quotes</strong></td>
+      <td>Confirm all three testimonials are from real customers and that written consent has been obtained for use of full names and quotes publicly.</td>
+      <td>Legal risk if quotes are illustrative and not confirmed</td>
+    </tr>
+  </table>
+
+
+  <!-- ── PENDING DEV ───────────────────────────────────── -->
+  <h2>Pending Items — Dev Team</h2>
+
+  <table>
+    <tr><th>Item</th><th>Notes</th><th>Priority</th></tr>
+    <tr>
+      <td><strong>Favicon files</strong></td>
+      <td>&lt;link&gt; tags are in &lt;head&gt; pointing to /favicon.png and /favicon.ico — files do not yet exist on the server</td>
+      <td><span class="badge badge-pending">Before launch</span></td>
+    </tr>
+    <tr>
+      <td><strong>Hero dashboard image</strong></td>
+      <td>Currently an Unsplash stock photo. Replace with actual Team Pod product screenshot.</td>
+      <td><span class="badge badge-pending">Before launch</span></td>
+    </tr>
+    <tr>
+      <td><strong>Calendly / Bookings link</strong></td>
+      <td>Update the "Book a 15-Min Demo" button href once booking URL is confirmed</td>
+      <td><span class="badge badge-pending">Before launch</span></td>
+    </tr>
+    <tr>
+      <td><strong>Testimonial photos</strong></td>
+      <td>Initials avatars in place. Swap to real customer photos when available.</td>
+      <td><span class="badge badge-dev">Post-launch</span></td>
+    </tr>
+    <tr>
+      <td><strong>Contact form</strong></td>
+      <td>mailto: links open native mail client (Outlook, Apple Mail). For users without a configured client, a web-based contact form is the better long-term solution. Recommend Tally or a simple embedded form.</td>
+      <td><span class="badge badge-dev">Post-launch</span></td>
+    </tr>
+    <tr>
+      <td><strong>Resources pages</strong></td>
+      <td>Help Centre, User Guide, API Docs, Case Studies, Video Tutorials — none exist. Footer column removed. Restore when pages are ready.</td>
+      <td><span class="badge badge-dev">Post-launch</span></td>
+    </tr>
+    <tr>
+      <td><strong>Social media profiles</strong></td>
+      <td>If LinkedIn/Twitter accounts are created, add icons back to footer with correct hrefs.</td>
+      <td><span class="badge badge-dev">Post-launch</span></td>
+    </tr>
+    <tr>
+      <td><strong>OG image</strong></td>
+      <td>og:image tag references /assets/og-image.jpg — confirm this file exists on the server before publishing (affects link previews in Slack, WhatsApp, LinkedIn)</td>
+      <td><span class="badge badge-pending">Before launch</span></td>
+    </tr>
+  </table>
+
+
+  <div class="doc-footer">
+    <p>TeamPod Website — Executive Summary of Changes &nbsp;|&nbsp; March 2026 &nbsp;|&nbsp; Prepared by Claude Code / AI-assisted review &nbsp;|&nbsp; Confidential</p>
+  </div>
+
+</body>
+</html>
